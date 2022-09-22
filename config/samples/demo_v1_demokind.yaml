@@ -1,0 +1,8 @@
+apiVersion: demo.my.domain/v1
+kind: DemoKind
+metadata:
+  name: demokind-sample
+  annotations:
+    demo: "this is a demo"
+spec:
+  # TODO(user): Add fields here
