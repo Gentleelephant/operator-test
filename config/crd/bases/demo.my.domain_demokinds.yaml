@@ -35,9 +35,7 @@ spec:
           spec:
             description: DemoKindSpec defines the desired state of DemoKind
             properties:
-              foo:
-                description: Foo is an example field of DemoKind. Edit demokind_types.go
-                  to remove/update
+              image:
                 type: string
             type: object
           status:

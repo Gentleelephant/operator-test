@@ -38,6 +38,7 @@ type DemoKindStatus struct {
 }
 
 //+kubebuilder:object:root=true
+//+kubebuilder:subresource:status
 
 // DemoKind is the Schema for the demokinds API
 type DemoKind struct {
